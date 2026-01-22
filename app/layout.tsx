@@ -7,12 +7,12 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nitin's Portfolio",
-  description: "Modern & Minimal Nitin Portfolio",
+  title: "Muskan's Portfolio",
+  description: "Modern & Minimal Muskan Portfolio",
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {

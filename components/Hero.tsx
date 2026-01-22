@@ -29,16 +29,13 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
 
         <div className="flex justify-center relative my-20 ">
-          <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col  items-center justify-center">
-            <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-              Next js Modern Portfolio
-            </h2>
+          <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col  items-center justify-center"> 
             <TextGenerateEffect
               className=" text-center text-[40px] md:text-5xl lg:text-6xl"
-              words="Transforming Concepts into Seamless User Experince"
+              words="Transforming Concepts into Seamless User Experience"
             />
             <p className="text-center md:-tracking-wider mb-4 text-sm md:text-lg lg:text-2xl dark:text-white">
-              Hi I&apos;m Nitin, As a Full Stack Developer based in Palwal,Haryana
+              Hi I&apos;m Muskan, As a Full Stack Developer based in Faridabad,Haryana
             </p>
             <a href="#about">
               <MagicButton
