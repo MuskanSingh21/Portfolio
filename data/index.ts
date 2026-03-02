@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building an e-commerce website for kitchen appliances",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "E-commerce Website",
-    des: "Discover the latest trends in fashion, electronics, and home goods at unbeatable prices. Shop now for exclusive deals and fast shipping.",
+    title: "Ticket Management System",
+    des: "Transforming Workplace Support with Intelligent Ticket Tracking and Seamless Resolution Management.",
     img: "/p1.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/node.png", "/ex.png"],
-    link: "/ui.earth.com",
+    link: "https://tms.deepmart.shop/",
   },
   {
     id: 2,
@@ -88,19 +88,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
     title: "Weather web application",
     des: "Track real-time weather updates, forecasts, and alerts with our intuitive app. Stay prepared for any weather, anytime, anywhere.",
     img: "/p4.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://nitin-weather-react-app.netlify.app/",
+    link: "https://weather-app-alpha-pearl-44.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Virtual Assistant",
+    des: "Providing strategic virtual support that helps your business grow faster and smarter.",
+    img: "/p5.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://virtual-assistant-rho.vercel.app/",
   },
 ];
 
@@ -173,31 +173,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Backend Developer Intern",
-    desc: "Assisted in the development of a web-based platform using node.js,express.js, enhancing Performance.",
-    className: "md:col-span-2",
+    title: "MERN Stack Dev",
+    desc: "As a MERN Stack Developer i work on both Frontend as well as Backend",
+    className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Full Stack Dev",
-    desc: "As a Full Stack Developer i work on both Frontend as well as Backend",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Frontend Developer",
-    desc: "As a frontend developer i have strong knowledge of react.js , next.js"  ,
+    desc: "As a frontend developer i have strong knowledge of react.js ,tailwind css",  
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ];
 
@@ -205,16 +191,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/nitinroyal12",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-    link: "",
+    link: "https://github.com/MuskanSingh21",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://in.linkedin.com/in/nitin-thakur-410b39281",
+    link: "http://www.linkedin.com/in/muskan-singh21",
   },
 ];
